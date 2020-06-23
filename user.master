@@ -1,0 +1,261 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="user.master.cs" Inherits="user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        ozel123
+        {
+            text-align:center
+        }
+        ul.menu 
+        {
+
+            list-style-type:none;
+            display:block;
+            padding: 0;
+            margin: 0; 
+            
+        }
+        ul.menu a
+        {
+            display:block;
+            color: #1B1B1B;
+            background-color: #E2E2E2; 
+            width:200px;
+            padding:5px 0 5px 5px; 
+            text-decoration:none;
+            font-family:Calibri;
+            }
+        ul.menu a:hover {background-color: #999;}
+        ul.menu li {     margin: 0 0 .2em 0;
+            width: 210px;
+        }
+      body
+      {
+          margin:0px 0px 0px 0px;
+          background-image:url("arkaplanlar/arka.gif");
+          background-repeat:repeat;
+      }
+      .banner_orta
+      {
+          background-image:url("arkaplanlar/user_banner/orta.png");
+          width:100%;
+          height:138px;
+          background-position:center center;
+          background-repeat:repeat-x;
+      }
+      .style1
+      {
+          width: 100%;
+          height: 200px;
+      }
+        .style2
+        {
+            width: 100px;
+            height: 100px;
+        }
+        .style3
+        {
+            width: 720px;
+            height: 197px;
+        }
+        .a_tablo_sag_ust
+        {
+            background-image:url("arkaplanlar/user_table/sag_ust.png");
+            background-position:left bottom;
+            background-repeat:no-repeat;
+            width:60px;
+            height:60px;
+        }
+        .a_tablo_sag_alt
+        {
+            background-image:url("arkaplanlar/user_table/sag_alt.png");
+            background-position:left top;
+            background-repeat:no-repeat;
+            width:60px;
+            height:60px;
+        }
+        .a_tablo_sol_alt
+        {
+            background-image:url("arkaplanlar/user_table/sol_alt.png");
+            background-position:right top;
+            background-repeat:no-repeat;
+            width:60px;
+            height:60px;
+        }
+        .a_tablo_sol_ust
+        {
+            background-image:url("arkaplanlar/user_table/sol_ust.png");
+            background-position:right top;
+            background-repeat:no-repeat;
+            width:60px;
+            height:60px;
+        }
+        .a_tablo_sag
+        {
+            background-image:url("arkaplanlar/user_table/sag.png");
+            background-position:left center;
+            background-repeat:repeat-y;
+            width:60px;
+        }
+        .a_tablo_sol
+        {
+            background-image:url("arkaplanlar/user_table/sol.png");
+            background-position:right center;
+            background-repeat:repeat-y;
+            width:60px;
+        }
+        .a_tablo_ust
+        {
+            background-image:url("arkaplanlar/user_table/ust.png");
+            background-position:center bottom;
+            background-repeat:repeat-x;
+            height:60px;
+        }
+        .a_tablo_alt
+        {
+            background-image:url("arkaplanlar/user_table/alt.png");
+            background-position:center top;
+            background-repeat:repeat-x;
+            height:60px;
+        }
+        .a_tablo_orta
+        {
+            background-image:url("arkaplanlar/user_table/orta.png");
+            background-repeat:repeat;
+            width:90%;
+        }
+        .style4
+        {
+            width: 100%;
+        }
+        
+                
+        .style5
+        {
+            width: 82px;
+            font-family: Calibri;
+        }
+        .style6
+        {
+            width: 498px;
+        }
+        
+                
+        .style7
+        {
+            font-size: x-large;
+        }
+        
+                
+        .style8
+        {
+            font-size: medium;
+        }
+        
+                
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0" cellspacing="0" class="style1">
+            <tr>
+                <td class=banner_orta>
+
+                    <table cellpadding="0" cellspacing="0" class="style2">
+                        <tr>
+                            <td>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" HEIGHT="60"  WIDTH="60">
+  <param name="movie" value="a.swf">
+  <param name="quality" value="high">
+  <param name=wmode value="transparent">  
+  <embed src="a.swf" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" HEIGHT="60"  WIDTH="60"></embed>
+</object> 
+
+                            </td>
+                            <td>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="style3" src="arkaplanlar/user_banner/text.png" /></td>
+                        </tr>
+                    </table>
+
+                
+                </td>
+                <td class=banner_orta>
+
+                    &nbsp;</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div align="center">
+
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td class=a_tablo_sol_ust>
+                    </td>
+                <td class=a_tablo_ust>
+                    </td>
+                <td class=a_tablo_sag_ust>
+                    </td>
+            </tr>
+            <tr>
+                <td class=a_tablo_sol>
+                    </td>
+                <td class=a_tablo_orta>
+                    <table cellpadding="0" cellspacing="0" class="style4">
+                        <tr>
+                            <td align="center" class="style5" valign=top>
+                                <ul class="menu">
+    <li class=style8><strong>Hoşgeldin 
+        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></strong></li>
+    <li class=style7><strong>KATEGORİLER</strong></li>
+    <li><a href="urunler.aspx">Anasayfa</a></li>
+    <li><a href="BBB.aspx">Bayan Büyük Beden</a></li>
+    <li><a href="BNB.aspx">Bayan Normal Beden</a></li>
+    <li><a href="BGB.aspx">Bayan Genç Beden</a></li>
+    <li><a href="EBB.aspx">Erkek Büyük Beden</a></li>
+    <li><a href="ENB.aspx">Erkek Normal Beden</a></li>
+    <li><a href="EGB.aspx">Erkek Genç Beden</a></li>
+    <li><a href="">Adresleri Düzenle</a></li>
+    <li><a href="">Telefonları Düzenle</a></li>
+    <li><a href="UyeSiparis.aspx">Siparişlerim</a></li>
+    <li><a href="sepet.aspx">Sepetim = <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></a></li>
+    <li><a href="Olusturma.aspx">Sepetimi Temizle</a></li>
+    <li><a href="UyeGiris.aspx">Güvenli Çıkış</a></li>
+    </ul>
+                            </td>
+
+                            <td class="style6" valign=top >
+
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                    </td>
+                <td class=a_tablo_sag>
+                    </td>
+            </tr>
+            <tr>
+                <td class=a_tablo_sol_alt>
+                    </td>
+                <td class=a_tablo_alt>
+                    </td>
+                <td class=a_tablo_sag_alt>
+                    </td>
+            </tr>
+        </table>
+
+        </div>
+    </form>
+</body>
+</html>
